@@ -18,6 +18,6 @@ function rot13(str) {
    } else if (trans > 77) {
      output.push(String.fromCharCode(trans - 13));
    }
-   });
+  });
   return output.join("")
 }
