@@ -1,6 +1,5 @@
 //https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/javascript-algorithms-and-data-structures-projects/roman-numeral-converter
 //build a function converting regular numbers to roman numbers
-//20202/05/20: version 1.0
 
 function convertToRoman(num) {
   const romNum = {

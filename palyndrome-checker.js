@@ -4,7 +4,7 @@
 A palindrome is a word or sentence that's spelled the same way both 
 forward and backward, ignoring punctuation, case, and spacing.*/
 
-//2020/05/20 version 1.0: basic code, to improve
+//basic code, to improve
 
 function palindrome(str) {
     let palCheck = str.toLowerCase().replace(/\W|_/g, "");
