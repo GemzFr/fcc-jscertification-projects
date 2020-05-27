@@ -15,7 +15,7 @@ function convertToRoman(num) {
       unitTenHundThous[i] = mult*numData.slice(i,i+1);
     } else {
       unitTenHundThous[i] = mult*numData.slice(i,i+1);
-      multiplicize(i+=1,mult*=10);
+      multiplicize(i+1,mult*10);
     }
   };
   multiplicize();
